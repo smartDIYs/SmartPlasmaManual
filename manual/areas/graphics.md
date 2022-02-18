@@ -1,5 +1,4 @@
-グラフィックエリアは加工データの配置や位置関係を確認するためのエリアです。
-主に加工データの確認や加工位置の原点設定で使用します。
+グラフィックエリアは主に加工データのプレビューや位置関係を確認するためのエリアです。
 
 <p align="center">
 <img alt="SmartScreen" src="./images/areas/area_graphics.png" style="width:60%">
