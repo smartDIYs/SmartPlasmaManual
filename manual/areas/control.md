@@ -1,7 +1,7 @@
 ここでは加工準備や加工操作を行うツールについて説明します。
 
 <p align="center">
-<img alt="SmartScreen" src="../images/areas/area_control.png" style="width:50%">
+<img alt="SmartScreen" src="./images/areas/area_control.png" style="width:50%">
 </p>
 
 ## 原点復帰
@@ -9,7 +9,12 @@
 この操作により、加工機が座標を認識することができます。
 
 
+<p align="center">
+<img alt="SmartScreen" src="./images/areas/area_control_test.png" style="width:50%">
+</p>
+
 ## テスト操作
+
 ### 導通テスト
 素材の導通チェックに使用できます。ジョグコマンドでトーチと素材を軽く接地し、このボタンをONにすると24Vの微小電流が流れます。
 この状態でステータスエリアの「導通」がONになれば導通しています。
@@ -25,7 +30,7 @@
 4. トーチが`ピアス高さ`まで上昇します。
 
 下記のような挙動では設定等を見直してください。
-#### `プローブ高さ`に移動するまでに素材に当たってしまう
+#### プローブ高さに移動するまでに素材に当たってしまう
 トーチ先端と素材が速い速度で衝突すると、トーチの先端部品に悪影響を与える可能性があります。
 `プローブ高さ`の設定値を調節し、`プローブ速度`で素材に当たるようにしてください。
 
@@ -36,6 +41,9 @@
 トーチ先端に水滴が付着している可能性があります。
 「エアー噴射」ボタンを押して先端の水滴を飛ばしてください。
 
+<p align="center">
+<img alt="SmartScreen" src="./images/areas/area_control_jogs.png" style="width:50%">
+</p>
 
 ## ジョグ
 加工軸を任意の位置に動かすことができます。
@@ -65,6 +73,10 @@
 - 加工原点: 加工原点の位置にトーチを移動します。
 
 
+<p align="center">
+<img alt="SmartScreen" src="./images/areas/area_control_parameter.png" style="width:50%">
+</p>
+
 ## 加工設定
 加工に関する設定を行います。加工を行う場合は「トーチ有効」をオンにしてください。
 
@@ -82,7 +94,14 @@
 現在設定されている切断パラメータを表示しています。「パラメータ設定」ボタンをクリックするとパラメータ設定ウィンドウが表示されます。
 
 
+
+
+<p align="center">
+<img alt="SmartScreen" src="./images/areas/area_control_process.png" style="width:50%">
+</p>
+
 ## 加工操作
 - スタート: 加工を開始します。
 - 中断/再開: 加工を一時停止/再開します。中断状態では「再開」ボタンに変わります。
 - 停止: 加工をキャンセルします。
+

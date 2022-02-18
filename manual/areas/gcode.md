@@ -15,9 +15,7 @@ G-Code表示エリアでは現在の加工指示データ（G-Code）を表示�
 ## G-Codeのコマンドの定義
 このソフトウェアは加工制御にLinuxCNCを利用しております。
 G-Codeについてはこちらのマニュアルをご参考ください。
-- LinuxCNC Gcodes
-https://linuxcnc.org/docs/html/gcode/g-code.html
-- PlasmaC Gcode Examples
-http://linuxcnc.org/docs/html/plasma/plasmac-user-guide.html#_plasmac_gcode_examples
+- [LinuxCNC Gcodes](https://linuxcnc.org/docs/html/gcode/g-code.html)
+- [PlasmaC Gcode Examples](http://linuxcnc.org/docs/html/plasma/plasmac-user-guide.html#_plasmac_gcode_examples)
 
 
