@@ -2,7 +2,7 @@
 
 
 <p align="center">
-<img alt="SmartScreen" src="../images/areas/area_status.png" style="width:60%">
+<img alt="SmartScreen" src="./images/areas/area_status.png" style="width:60%">
 </p>
 
 ## エラーメッセージ
