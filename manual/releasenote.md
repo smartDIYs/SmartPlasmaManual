@@ -12,7 +12,7 @@
 <tbody>
 
 <tr>
-<td align="left">2021.2.10</td>
+<td align="left">2021.2.17</td>
 <td align="left">v1.0.1</td>
 <td align="left">軽微な不具合の修正</td>
 <td align="left">

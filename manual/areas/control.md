@@ -1,5 +1,9 @@
 ここでは加工準備や加工操作を行うツールについて説明します。
 
+<p align="center">
+<img alt="SmartScreen" src="../images/areas/area_control.png" style="width:50%">
+</p>
+
 ## 原点復帰
 加工機・ソフトウェアを起動した直後は必ず原点復帰を行います。
 この操作により、加工機が座標を認識することができます。

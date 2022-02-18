@@ -2,7 +2,7 @@
 本ソフトウェアの基本ウィンドウで、以下の要素から構成されています。
 
 <p align="center">
-<img alt="SmartScreen" src="./images/names/main.png" style="width:70%">
+<img alt="SmartScreen" src="./images/names/names.png" style="width:80%">
 </p>
 
 #### (A) メニューバー

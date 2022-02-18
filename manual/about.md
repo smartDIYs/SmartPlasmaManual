@@ -22,4 +22,5 @@ svg / dxf (R12形式推奨) / gcode
 - 本マニュアルのスクリーンショット等は実際のソフトウェアの表示と異なる場合がございます。
 - 内容に関しては予告無しに更新されることがあります。
 - 本製品の運用を理由とする損失、逸失利益などの請求につきましては、いかなる責任も負いかねますのであらかじめご了承ください。
-- Adobe、Adobe Illustrator および Photoshop は、 Adobe Systems Incorporatedの米国およびその他の国における登録商標または商標です。
+- Microsoft Windowsは、米国 Microsoft Corporation の米国およびその他の国における登録商標または商標です。
+- Apple、App Store、Apple ロゴ、Mac、Mac OS、OS X、macOS、iPad、iPhoto、iPod touch、および iTunes は、Apple Inc. の商標です。

@@ -1,6 +1,10 @@
 グラフィックエリアは加工データの配置や位置関係を確認するためのエリアです。
 主に加工データの確認や加工位置の原点設定で使用します。
 
+<p align="center">
+<img alt="SmartScreen" src="../images/areas/area_graphics.png" style="width:60%">
+</p>
+
 ## DRO表示
 DRO(Digiral Readout)の各項目について説明します。
 「メニューバー > 表示 > DROを表示」から表示/非表示の切り替えができます。

@@ -1,5 +1,9 @@
 G-Code表示エリアでは現在の加工指示データ（G-Code）を表示しています。
 
+<p align="center">
+<img alt="SmartScreen" src="../images/areas/area_gcode.png" style="width:60%">
+</p>
+
 ### 編集方法
 「メニューバ > ファイル > G-Codeコードを編集」を実行するとテキストエディタが開きます。
 このエディタ上で編集を行い上書き保存をすると、エディタを終了した際に変更が反映されます。

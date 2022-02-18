@@ -1,15 +1,28 @@
 ここでは外部ツールについて説明します。
 
 ## 計算機
+<p align="center">
+<img alt="SmartScreen" src="./images/externaltool/calculator.png" style="width:30%">
+</p>
+
 OSの計算機アプリです。様々なモードが含まれております。
 数値計算などにご利用ください。
 
 ## スクリーンショット
+<p align="center">
+<img alt="SmartScreen" src="./images/externaltool/screenshot.png" style="width:50%">
+</p>
+
 OSのスクリーンショット取得アプリです。
 このアプリから現在の画面を画像として保存できます。
-サポートなどにご利用ください。
+サポートへのお問い合わせ等にご利用ください。
+
 
 ## dxf2gcode
+<p align="center">
+<img alt="SmartScreen" src="./images/externaltool/d2g_screen.png" style="width:60%">
+</p>
+
 オープンソースソフトウェア「dxf2gcode」アプリです。
 DXFデータからG-Codeに変換するCAMソフトウェアとなっております。
 ソフトウェア専用のシンプルなCADにはないいくつかの機能が含まれております。
@@ -21,7 +34,7 @@ DXFデータからG-Codeに変換するCAMソフトウェアとなっており�
 DXF2GCODE WIKI
 https://sourceforge.net/p/dxf2gcode/wiki/Home/
 
-ソフトウェアの各種設定は下記の通りに行ってください。
+ソフトウェアの各種設定は下記を参考にしてください。
 
 ### config
 

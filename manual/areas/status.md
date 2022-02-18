@@ -1,5 +1,10 @@
 ここでは、ステータスエリアの各項目について説明します。
 
+
+<p align="center">
+<img alt="SmartScreen" src="../images/areas/area_status.png" style="width:60%">
+</p>
+
 ## エラーメッセージ
 加工操作やG-Codeに問題がある場合は、このエリアにエラーメッセージが表示されます。
 
