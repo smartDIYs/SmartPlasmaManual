@@ -2,6 +2,10 @@
 
 SVGやDXFデータを読み込むとこのエディタが起動します。
 
+<p align="center">
+<img alt="SmartScreen" src="./images/cam/cam_screen.png" style="width:70%">
+</p>
+
 ## 全体設定
 
 ### カッター補正
