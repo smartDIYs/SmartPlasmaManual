@@ -2,7 +2,7 @@
 主に加工データの確認や加工位置の原点設定で使用します。
 
 <p align="center">
-<img alt="SmartScreen" src="../images/areas/area_graphics.png" style="width:60%">
+<img alt="SmartScreen" src="./images/areas/area_graphics.png" style="width:60%">
 </p>
 
 ## DRO表示
