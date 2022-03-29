@@ -17,14 +17,12 @@
 <td align="left">Z軸速度に関する改善<br>警告表示に関する改善</td>
 <td align="left"><a href="https://download.smartdiys.com/smartplasma/archive/SmartPlasma_v1.0.2.plupd">v1.0.2</a></td>
 </tr>
-</tr>
 
 <tr>
 <td align="left">2022.2.17</td>
 <td align="left">v1.0.1</td>
 <td align="left">軽微な不具合の修正</td>
 <td align="left"><a href="https://download.smartdiys.com/smartplasma/archive/SmartPlasma_v1.0.1.plupd">v1.0.1</a></td>
-</tr>
 </tr>
 
 <tr>

@@ -1,0 +1,58 @@
+[
+    {
+      "file": "about.md",
+      "title": "概要"
+    },
+    {
+      "file": "names.md",
+      "title": "各部名称・機能"
+    },
+    {
+      "file": "areas/menubar.md",
+      "title": "(A)メニューバー"
+    },
+    {
+      "file": "areas/graphics.md",
+      "title": "(B)グラフィックエリア"
+    },
+    {
+      "file": "areas/gcode.md",
+      "title": "(C)G-Code表示エリア"
+    },
+    {
+      "file": "areas/control.md",
+      "title": "(D)コントロールエリア"
+    },
+    {
+      "file": "areas/status.md",
+      "title": "(E)ステータスエリア"
+    },
+    {
+      "file": "parameter.md",
+      "title": "パラメータ設定"
+    },
+    {
+      "file": "cam.md",
+      "title": "CAMエディタ"
+    },
+    {
+      "file": "flow.md",
+      "title": "使い方"
+    },
+    {
+      "file": "network.md",
+      "title": "ネットワーク"
+    },
+    {
+      "file": "externaltool.md",
+      "title": "外部ツール"
+    },
+    {
+      "file": "update.md",
+      "title": "ソフトウェアアップデート"
+    },
+    {
+      "file": "releasenote.md",
+      "title": "リリースノート"
+    }
+  ]
