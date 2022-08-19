@@ -2,6 +2,12 @@
 
 SVGやDXFデータを読み込むとこのエディタが起動します。
 
+```
+※ svgデータはデフォルトで 72dpi としてインポートされます。
+※ dxfデータは 1単位 = 1mm としてインポートされます。
+※ テキスト要素には対応しておりません。事前にアウトライン化やポリライン化を行ってください。
+```
+
 <p align="center">
 <img alt="SmartScreen" src="./images/cam/cam_screen.png" style="width:70%">
 </p>
