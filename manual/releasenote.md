@@ -14,7 +14,7 @@
 <tr>
 <td align="left">2022.8.29</td>
 <td align="left">v1.0.3</td>
-<td align="left">数値指定での軸移動機能追加<br>CAMソフトのG2/G3コード出力への対応<br>警告表示に関する改善<br>軽微な不具合の修正<br>UI/UXの改善</td>
+<td align="left">CAMソフトのG2/G3コード出力への対応<br>数値指定での軸移動機能追加<br>警告表示に関する改善<br>軽微な不具合の修正<br>UI/UXの改善</td>
 <td align="left"><a href="https://download.smartdiys.com/smartplasma/archive/SmartPlasma_v1.0.3.plupd">v1.0.3</a></td>
 </tr>
 
