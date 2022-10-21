@@ -53,6 +53,7 @@ DXFデータからG-Codeに変換するためのCAMソフトウェアであり�
 - incremental programming: G91 (Incremental Distance Mode)
 
 - Startup:
+
 ```
 %nl
 G40 (cancel cutter compensation)
@@ -71,6 +72,7 @@ f#<_hal[plasmac.cut-feed-rate]> (feed rate from cut parameters)
 ```
 
 - End:
+
 ```
 %nlM30 (End of Program)
 ```
