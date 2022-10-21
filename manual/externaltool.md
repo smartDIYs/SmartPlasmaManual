@@ -53,7 +53,8 @@ DXFデータからG-Codeに変換するためのCAMソフトウェアであり�
 - incremental programming: G91 (Incremental Distance Mode)
 
 - Startup:
-``` %nl
+```
+%nl
 G40 (cancel cutter compensation)
 G49 (cancel tool length compensation)
 G64 P0.05 (set path following to be within 0.05 of the actual path)
