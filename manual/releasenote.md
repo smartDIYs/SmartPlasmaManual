@@ -12,6 +12,13 @@
 <tbody>
 
 <tr>
+<td align="left">2022.11.22</td>
+<td align="left">v1.0.4</td>
+<td align="left">75Aプラズマ電源用パラメータ追加<br>USB挿入時のブラウザ表示の無効化<br>カスタムブラウザの追加<br>詳細ステータス確認表示の追加<br>軽微な不具合の修正</td>
+<td align="left"><a href="https://download.smartdiys.com/smartplasma/archive/SmartPlasma_v1.0.4.plupd">v1.0.4</a></td>
+</tr>
+
+<tr>
 <td align="left">2022.8.29</td>
 <td align="left">v1.0.3</td>
 <td align="left">CAMソフトのG2/G3コード出力への対応<br>数値指定での軸移動機能追加<br>警告表示に関する改善<br>軽微な不具合の修正<br>UI/UXの改善</td>

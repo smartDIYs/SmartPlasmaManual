@@ -18,6 +18,15 @@ OSのスクリーンショット取得アプリです。
 サポートへのお問い合わせ等にご利用ください。
 
 
+## ファイルブラウザ
+<p align="center">
+<img alt="SmartScreen" src="./images/externaltool/filebrowser.png" style="width:50%">
+</p>
+
+簡易的なファイルブラウザです。ドラッグ&ドロップでファイルの整理が可能です。
+USBメモリからのデータ移行などにも利用できます。
+
+
 ## dxf2gcode
 <p align="center">
 <img alt="SmartScreen" src="./images/externaltool/d2g_screen.png" style="width:60%">
