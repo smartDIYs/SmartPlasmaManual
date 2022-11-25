@@ -72,6 +72,7 @@ SVG / DXF (R12形式推奨) / G-Code
 - DROを表示: 現在の加工軸の座標や速度の表示/非表示を切り替えます。
 - 詳細DROを表示: 標準DROと詳細DROの切り替えを行います。
 - GCodeを表示: G-Code表示エリアの表示/非表示を切り替えます。
+- 詳細ステータスを表示: 詳細ステータスの表示/非表示を切り替えます。
 
 ## 原点復帰
 - 原点復帰: 全ての軸を原点復帰します。
@@ -249,7 +250,7 @@ G-Codeについてはこちらのマニュアルをご参考ください。
 - X原点設定: X軸のみ原点設定を行います。
 - Y原点設定: Y軸のみ原点設定を行います。
 - 範囲確認: 加工オブジェクトの外形をトーチが移動します。
-- 加工原点: 加工原点の位置にトーチを移動します。
+- 軸移動: 数値で指定した任意の位置へトーチを移動します。
 
 
 <p align="center">
@@ -385,12 +386,17 @@ SVGやDXFデータを読み込むとこのエディタが起動します。
 <img alt="SmartScreen" src="./images/cam/cam_screen.png" style="width:70%">
 </p>
 
+```
+※ svgデータはデフォルトで 72dpi としてインポートされます。
+※ dxfデータは 1単位 = 1mm としてインポートされます。
+※ テキスト要素には対応しておりません。事前にアウトライン化やポリライン化を行ってください。
+```
 ## 全体設定
 
 ### カッター補正
 カーフ幅を考慮した自動補正のオン/オフを切り替えます。
 この設定がオンの場合、加工時にSmartPlasma上で設定されたカーフ幅パラメータに基づいて自動でパスの補正が行われます。
-この自動補正機能は万能ではなく、細かいパスが存在する場合はエラーとなり加工を行うことができません。
+この自動補正機能は万能ではなく、加工経路や補正幅によっては矛盾が生じて加工を行うことができません。
 補正方向（パスの内側・外側）は下記のリード位置に基づいて決定されます。
 
 ### リード位置
@@ -399,6 +405,9 @@ SVGやDXFデータを読み込むとこのエディタが起動します。
 
 ### リードイン/リードアウト
 リードのスタイル及び長さを設定します。厚い素材ほどリードを長く確保することをお勧めします。
+
+### 円弧を線分に分割
+円弧を細かい線分に分割して近似します。通常は使用する必要はありませんが、円弧の解釈に起因するデータの不整合が発生した場合はこのチェックを入れてお試しください。
 
 ## 個別設定
 グラフィックエリアのパスをクリックすると、個別に上記の設定を行うことができます。
@@ -555,6 +564,15 @@ OSのスクリーンショット取得アプリです。
 サポートへのお問い合わせ等にご利用ください。
 
 
+## ファイルブラウザ
+<p align="center">
+<img alt="SmartScreen" src="./images/externaltool/filebrowser.png" style="width:50%">
+</p>
+
+簡易的なファイルブラウザです。ドラッグ&ドロップでファイルの整理が可能です。
+USBメモリからのデータ移行などにも利用できます。
+
+
 ## dxf2gcode
 <p align="center">
 <img alt="SmartScreen" src="./images/externaltool/d2g_screen.png" style="width:60%">
@@ -590,7 +608,9 @@ DXFデータからG-Codeに変換するためのCAMソフトウェアであり�
 - incremental programming: G91 (Incremental Distance Mode)
 
 - Startup:
-``` %nl
+
+```
+%nl
 G40 (cancel cutter compensation)
 G49 (cancel tool length compensation)
 G64 P0.05 (set path following to be within 0.05 of the actual path)
@@ -607,6 +627,7 @@ f#<_hal[plasmac.cut-feed-rate]> (feed rate from cut parameters)
 ```
 
 - End:
+
 ```
 %nlM30 (End of Program)
 ```
@@ -648,7 +669,7 @@ PCがWi-Fi環境下でインターネットに接続されている場合、イ�
 ## USBメモリからアップデート
 PCがインターネットに接続されていない場合は、USBメモリからアップデートを行うことができます。
 
-1. ネットワーク接続されているPCから、下記のURLにアクセスしてアップデートデータをダウンロードします。<br>
+1. ネットワーク接続されているPCから、下記のURLにアクセスしてアップデートファイルをダウンロードします。<br>
 https://www.smartdiys.com/manual/smart-plasma-releasenote/<br>
 2. 空のUSBメモリを用意し、ダウンロードしたデータ（.plupd)をUSBメモリの一番上の階層に配置します。
 3. 上記のUSBメモリをプラズマ加工機のPCに接続します。
@@ -673,6 +694,18 @@ https://www.smartdiys.com/manual/smart-plasma-releasenote/<br>
 </tr>
 </thead>
 <tbody>
+<tr>
+<td align="left">2022.11.22</td>
+<td align="left">v1.0.4</td>
+<td align="left">75Aプラズマ電源用パラメータ追加<br>USB挿入時のブラウザ表示の無効化<br>カスタムブラウザの追加<br>詳細ステータス確認表示の追加<br>軽微な不具合の修正</td>
+<td align="left"><a href="https://download.smartdiys.com/smartplasma/archive/SmartPlasma_v1.0.4.plupd">v1.0.4</a></td>
+</tr>
+<tr>
+<td align="left">2022.8.29</td>
+<td align="left">v1.0.3</td>
+<td align="left">CAMソフトのG2/G3コード出力への対応<br>数値指定での軸移動機能追加<br>警告表示に関する改善<br>軽微な不具合の修正<br>UI/UXの改善</td>
+<td align="left"><a href="https://download.smartdiys.com/smartplasma/archive/SmartPlasma_v1.0.3.plupd">v1.0.3</a></td>
+</tr>
 <tr>
 <td align="left">2022.3.1</td>
 <td align="left">v1.0.2</td>
