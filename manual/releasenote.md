@@ -21,7 +21,7 @@ CAMソフトへ加工順序設定機能の追加<br>
 特定のDXFデータの読み込み不具合改善<br>
 UI/UXの改善<br>
 軽微な不具合の修正</td>
-<td align="left"><a href="https://download.smartdiys.com/smartplasma/archive/SmartPlasma_v1.2.0.plupd">v1.1.0</a></td>
+<td align="left"><a href="https://download.smartdiys.com/smartplasma/archive/SmartPlasma_v1.2.0.plupd">v1.2.0</a></td>
 </tr>
 
 <tr>
