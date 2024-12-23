@@ -12,6 +12,19 @@
 <tbody>
 
 <tr>
+<td align="left">2024.12.23</td>
+<td align="left">v1.2.0</td>
+<td align="left">
+PL950Rへの対応<br>
+機種選択画面の追加<br>
+CAMソフトへ加工順序設定機能の追加<br>
+特定のDXFデータの読み込み不具合改善<br>
+UI/UXの改善<br>
+軽微な不具合の修正</td>
+<td align="left"><a href="https://download.smartdiys.com/smartplasma/archive/SmartPlasma_v1.2.0.plupd">v1.1.0</a></td>
+</tr>
+
+<tr>
 <td align="left">2023.1.19</td>
 <td align="left">v1.1.0</td>
 <td align="left">
