@@ -15,7 +15,7 @@
 <td align="left">2024.12.25</td>
 <td align="left">v1.2.1</td>
 <td align="left">
-特定条件下にてアプリが起動しなくなる不具合の改善<br>
+特定条件下にてアプリが起動できない問題の修正<br>
 軽微な不具合の修正</td>
 <td align="left"><a href="https://download.smartdiys.com/smartplasma/archive/SmartPlasma_v1.2.1.plupd">v1.2.1</a></td>
 </tr>
